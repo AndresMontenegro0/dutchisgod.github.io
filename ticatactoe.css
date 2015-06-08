@@ -1,0 +1,22 @@
+*{
+	margin: 0px;
+	background: 0px;
+}
+#board{
+	width: 300px;
+	height: 300px;
+	border: 1em solid orange;
+	margin: auto;
+}
+
+input{
+	width: 100px;
+	height: 100px;
+	border: none;
+	font-size: 70px;
+	background: blue;
+	float: left;
+	color: red;
+
+}
+
