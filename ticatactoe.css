@@ -1,6 +1,10 @@
 *{
 	margin: 0px;
 	background: 0px;
+	text-align: center;
+	color: blue;
+	background-color: NavajoWhite;
+
 }
 #board{
 	width: 300px;
@@ -12,11 +16,48 @@
 input{
 	width: 100px;
 	height: 100px;
-	border: none;
+	border: 1px solid black;
 	font-size: 70px;
 	background: blue;
 	float: left;
 	color: red;
 
+}
+
+#btNew{
+	width: 330px;
+	height: 100px;
+	border: 1px solid black;
+	font-size: 60px;
+	background:#5F9EA0;
+	color: tomato;
+	margin-left: 485px;
+	position: relative;
+	border: 5px solid grey;
+
+
+}
+#player1{
+  position:relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: -21%;
+  color: red;
+  font-size: 15px;
+  background-color: black;
+  width: 200px;
+
+}
+#player2{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: 21%;
+  color: red;
+  font-size: 15px;
+  background-color: black;
+  width: 200px
 }
 

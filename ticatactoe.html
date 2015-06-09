@@ -1,4 +1,4 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html>
 <title>
 	Tic Tac Toe Two ; Electric boogaloo
@@ -9,11 +9,15 @@
 	<link rel="stylesheet" type="text/css" href="ticatactoe.css" />
 </head>
 <header>
-	<h1>Tic Tac Toe Go!</h1>
+	<h1>Tic Tac Toe Go!</h1> 
 </header>
-<body><!--  containing board and buttons lay out   had to restard due to difficulty in implementing on initian canvas div       -->
+<body><!--  containing arena and buttons lay out          -->
+     <div>   <input type="text" class="p1" placeholder="Enter Name For X" id="player1"></input>
+        <input type="text"class="p2" placeholder="Enter Name For Y" id="player2"></input>
+       
+      </div>
 	<div id="board">
-	<!--  buttons lay out          -->
+	<!--  buttons lay out   Not Dry at all        -->
 	<input type = "button" id = "bt1" onclick ="clickBt('bt1')"/>
 	<input type = "button" id = "bt2" onclick ="clickBt('bt2')"/>
 	<input type = "button" id = "bt3" onclick ="clickBt('bt3')"/>
@@ -25,9 +29,8 @@
 	<input type = "button" id = "bt9" onclick ="clickBt('bt9')"/>
 	<!--  buttons lay out          -->
 
-	</div>
-	
-	
+	</div><!--  New Game button         -->
+	<input type = "button" id = "btNew" onclick = "" value = "New Game"/>
+
 </body>
 </html>
-
