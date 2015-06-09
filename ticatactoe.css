@@ -4,6 +4,8 @@
 	text-align: center;
 	color: blue;
 	background-color: NavajoWhite;
+	position: relative;
+	
 
 }
 #board{
@@ -11,6 +13,8 @@
 	height: 300px;
 	border: 1em solid orange;
 	margin: auto;
+	float: left;
+	position: relative;
 }
 
 input{
@@ -22,42 +26,47 @@ input{
 	float: left;
 	color: red;
 
+
 }
 
 #btNew{
-	width: 330px;
-	height: 100px;
+	width: 310px;
+	height: 80px;
 	border: 1px solid black;
 	font-size: 60px;
 	background:#5F9EA0;
 	color: tomato;
-	margin-left: 485px;
-	position: relative;
-	border: 5px solid grey;
+	position: inherit;
+	border: 1px solid grey;
+	float: left;
+	margin-top: 15px;
+	margin-right: -50px;
 
 
 }
 #player1{
-  position:relative;
+  position:fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-left: -21%;
+  margin-left: -20%;
   color: red;
   font-size: 15px;
   background-color: black;
   width: 200px;
+  position: relative;
 
 }
 #player2{
-  position: relative;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  margin-left: 21%;
+  margin-left: 25%;
   color: red;
   font-size: 15px;
   background-color: black;
-  width: 200px
+  width: 200px;
+  position: relative;
 }
 

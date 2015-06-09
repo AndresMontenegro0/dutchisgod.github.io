@@ -46,8 +46,8 @@ function winner(){
 		document.getElementById("bt5").value == "x" &&
 		document.getElementById("bt7").value == "x"
 ){
-		alert("X Player Wins!");
-		
+		alert("X Player Wins");
+		reset();
 
 	}else if(
 		//when you dont know how to make a proper array .
@@ -78,11 +78,31 @@ function winner(){
 		document.getElementById("bt7").value == "o"
 ){
 		alert("O Player Wins!");
-		
+		reset();
 	}
 }
 
-
+function reset(){
+	//clears values for a new game
+		document.getElementById("bt1").value = "";
+		document.getElementById("bt2").value = "";
+		document.getElementById("bt3").value = "";
+		document.getElementById("bt4").value = "";
+		document.getElementById("bt5").value = "";
+		document.getElementById("bt6").value = "";
+		document.getElementById("bt7").value = "";
+		document.getElementById("bt8").value = "";
+		document.getElementById("bt9").value = "";
+		document.getElementById("bt1").disabled = "";
+		document.getElementById("bt2").disabled = "";
+		document.getElementById("bt3").disabled = "";
+		document.getElementById("bt4").disabled = "";
+		document.getElementById("bt5").disabled = "";
+		document.getElementById("bt6").disabled = "";
+		document.getElementById("bt7").disabled = "";
+		document.getElementById("bt8").disabled = "";
+		document.getElementById("bt9").disabled = "";
+}
 
 
 //var player = [Player1, Player2]
